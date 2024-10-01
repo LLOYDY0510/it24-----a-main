@@ -35,3 +35,7 @@ const isPalindrome = (str) => {
     }
     return str === reversed ? "Palindrome" : "Not a palindrome";
 };
+// 5. Functional Programming
+// Determine if the number is odd or even
+const numberType = isOddOrEven(number);
+console.log(`The number ${number} is: ${numberType}`);
